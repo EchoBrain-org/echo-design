@@ -1,0 +1,14 @@
+{
+  // Must match the existing Worker name so deploys update the same URL:
+  // https://dark-unit-fed1.zhen-ee6.workers.dev/
+  "name": "dark-unit-fed1",
+  "compatibility_date": "2026-07-15",
+  "assets": {
+    "directory": "."
+  },
+  "workers_dev": true,
+  "routes": [
+    { "pattern": "echobrain.org", "custom_domain": true },
+    { "pattern": "www.echobrain.org", "custom_domain": true }
+  ]
+}
